@@ -14,7 +14,7 @@ he database is operated by the Federal Food Safety and Veterinary Office FSVO. T
 
 Sources:
 
-http://www.naehrwertdaten.ch/request?xml=MessageData&xml=MetaData&xsl=Information&lan=en&pageKey=Start
+Thttp://www.naehrwertdaten.ch/request?xml=MessageData&xml=MetaData&xsl=Information&lan=en&pageKey=Start
 
 
 ## License
