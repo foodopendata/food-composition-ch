@@ -4,6 +4,10 @@
 
 The Swiss Food Composition Database contains information on the composition of foods that are available in Switzerland. the dataset contains approximately 10,500 foods that have been classified into 19 main and 105 sub categories. 
 
+# Data Package
+
+The data package is created by School of Data <info@schoolofdata.ch>
+
 # Author
 
 he database is operated by the Federal Food Safety and Veterinary Office FSVO. The Swiss Society for Nutrition SSN manages the contents and the Swiss Federal Institute of Technology Zurich ETH provides the required software. 
