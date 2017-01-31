@@ -2,9 +2,7 @@
 
 # Data
 
-
-The nutrient datasheets present the contents of different components (carbohydrates, proteins, fat and fatty acids, vitamins, minerals, etc.) and energy values for each food. The data are always given for 100 g of the edible portion of the food
-The current version of the French food composition table is 2016 and contains average nutrient information for 61 components in 2642 food items.
+The Swiss Food Composition Database contains information on the composition of foods that are available in Switzerland. The data set contains approximately 10,500 foods that have been classified into 19 main and 105 sub categories. 
 
 # Data Package
 
@@ -12,11 +10,10 @@ The data package is created by School of Data <info@schoolofdata.ch>
 
 # Author
 
-The French food composition databank is run by Ciqual in the Observatory of Food Nutritional Quality, unit of ANSES (the French agency for food, environmental and occupational health safety). 
+The Swiss Food Composition Database contains information on the composition of foods that are available in Switzerland. The database is operated by the Federal Food Safety and Veterinary Office FSVO.
 
 Sources:
-
-https://pro.anses.fr/tableciqual/index.htm
+http://www.naehrwertdaten.ch/request?xml=MessageData&xml=MetaData&xsl=Information&lan=en&pageKey=Start
 
 ## License
 
