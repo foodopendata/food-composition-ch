@@ -1,9 +1,9 @@
 {
-  "name": "swiss_food_comp-dataset",
-  "title": "Swiss Composition Dataset",
+  "name": "food-composition-ch",
+  "title": "Swiss food composition database",
   "format": "csv",
   "datapackage_version": "1.0.0",
-  "last_modified": "2017-01-30",
+  "last_modified": "2015-12-09",
   "licenses": [
     {
       "type": "ODC-PDDL-1.0",
@@ -12,50 +12,26 @@
   ],
   "sources": [
     {
-      "name": " the Federal Food Safety and Veterinary Office FSVO",
+      "name": "Federal Food Safety and Veterinary Office FSVO",
       "web": "http://www.naehrwertdaten.ch/request?xml=MessageData&xml=MetaData&xsl=Download&lan=en&pageKey=Start"
     }
   ],
   "resources": [
     {
-      "url": "https://raw.github.com/schoolofdata-ch/swiss_food_comp-dataset/master/data/swiss_food_comp_dataset_1.csv",
-      "path": "data/swiss_food_comp_dataset_2.csv",
+      "path": "data/generic-foods.csv",
       "schema": {
-        "fields": [
-          {
-            "name": "Food Name",
-            "description": "Type of food",
-            "type": "string"
-          },
-          {
-            "name": "Calories",
-            "description": "Amount of Calaries",
-            "type": "string"
-          }
-        ]
+        "fields": []
       }
-    }
+    },
     {
-      "url": "https://raw.github.com/schoolofdata-ch/swiss_food_comp-dataset/master/data/swiss_food_comp_dataset_2.csv",
-      "path": "data/swiss_food_comp_dataset_2.csv",
+      "path": "data/branded-foods.csv",
       "schema": {
-        "fields": [
-          {
-            "name": "Food Brand Name",
-            "description": "Type of food by Brand Name",
-            "type": "string"
-          },
-          {
-            "name": "Calories",
-            "description": "Amount of Calaries",
-            "type": "string"
-          }
-        ]
+        "fields": []
       }
     }
   ],
   "maintainers":[{
-    "name": "School of Data",
+    "name": "School of Data Switzerland",
     "web": "https://www.schoolofdata.ch/"
   }]
 }
