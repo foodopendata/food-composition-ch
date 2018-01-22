@@ -1,9 +1,9 @@
 {
   "name": "food-composition-ch",
-  "title": "Swiss food composition database",
+  "title": "Swiss Food Composition Database",
   "format": "csv",
-  "datapackage_version": "1.0.0",
-  "last_modified": "2015-12-09",
+  "datapackage_version": "1.0.1",
+  "last_modified": "2017-03-30",
   "licenses": [
     {
       "type": "ODC-PDDL-1.0",

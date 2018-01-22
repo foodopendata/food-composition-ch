@@ -1,10 +1,12 @@
-The Swiss Food Composition Database contains information on the composition of foods that are available in Switzerland. The data set contains approximately 10,500 foods that have been classified into 19 main and 105 sub categories. 
+The Swiss Food Composition Database contains information on the composition of foods that are available in Switzerland. The data set contains approximately 10,500 foods that have been classified into 19 main and 105 sub categories. The database is operated by the [Federal Food Safety and Veterinary Office](https://www.blv.admin.ch/blv/en/home.html).
 
-The database is operated by the [Federal Food Safety and Veterinary Office](https://www.blv.admin.ch/blv/en/home.html).
+Version: 5.3
 
-Sources:
+## Sources
 
-- [naehrwertdaten.ch](http://www.naehrwertdaten.ch/)
+The data was downloaded from [naehrwertdaten.ch](http://www.naehrwertdaten.ch/) and converted to CSV using LibreOffice Calc (Unicode UTF-8, default options), removing the first two header rows of each of the two worksheets.
+
+Note that a Web Services API is also available for accessing this dataset. See documentation (*Anleitung*) on the Downloads page of [naehrwertdaten.ch](http://www.naehrwertdaten.ch/)
 
 ## Schema
 
@@ -17,16 +19,13 @@ ID,ID V 4.0,ID SwissFIR,name D,synonyms D,name F,synonyms F,name I,synonyms I,na
 
 ## License
 
-This package is licensed by its maintainers under the Public Domain Dedication
-and License.
-
 Data is republished here in view of the original [terms of use](http://www.naehrwertdaten.ch/request?xml=MessageData&xml=MetaData&xsl=Information&lan=en&pageKey=Start):
 
 > The FSVO provides the data free of charge to all interested parties. The data may be used, also for commercial purposes, (e.g. integration into food composition calculation software or nutrition diary-app) and scientific purposes, subject to acknowledgment of the source.
 
 Nevertheless, it should be noted that this material is currently sourced from
 several third-parties whose data publishing rights and licensing policies are somewhat
-unclear.
-
-If you intended to use these data in a public or commercial product, please
+unclear. If you intended to use these data in a public or commercial product, please
 check the original sources for any specific restrictions.
+
+The metadata description in this Data Package is licensed by its maintainers under the Public Domain Dedication and License.
